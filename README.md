@@ -1,6 +1,33 @@
-# Valliente
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=slice&color=0:090d16,100:141c2e&height=140&section=header&text=VALLIENTE&fontSize=38&fontColor=ffffff&fontAlign=50&fontAlignY=40&desc=Systems%20Architecture%20%E2%80%A2%20Physics%20Simulations%20%E2%80%A2%20Native%20Engines&descSize=13&descAlign=50&descAlignY=68&descColor=00f0ff" width="100%" />
+</div>
+
+<div align="center">
+  <a href="https://github.com/valliente?tab=repositories&sort=stargazers">
+    <img src="https://img.shields.io/github/stars/valliente?style=flat-square&color=00f0ff&labelColor=090d16&logo=github&logoColor=00f0ff" alt="Total Stars" />
+  </a>
+  <a href="https://github.com/valliente">
+    <img src="https://img.shields.io/github/followers/valliente?style=flat-square&color=00f0ff&labelColor=090d16&logo=github&logoColor=00f0ff" alt="Followers" />
+  </a>
+  <img src="https://img.shields.io/badge/Focus-Systems%20%7C%20Physics%20%7C%20Engines-00f0ff?style=flat-square&labelColor=090d16" alt="Engineering Focus" />
+</div>
+
+<br/>
 
 Systems architect and software engineer specializing in high-performance computing, numerical simulations, native desktop applications, and real-time graphics engines.
+
+---
+
+### Engineering Telemetry & Activity
+
+<div align="center">
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=valliente&show_icons=true&bg_color=090d16&title_color=00f0ff&text_color=e2e8f0&icon_color=00f0ff&border_color=1e293b&count_private=true" height="165" alt="GitHub Overview Stats" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=valliente&layout=compact&bg_color=090d16&title_color=00f0ff&text_color=e2e8f0&border_color=1e293b&langs_count=8" height="165" alt="Language Breakdown" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=valliente&background=090D16&border=1E293B&stroke=00F0FF&ring=00F0FF&fire=00F0FF&currStreakLabel=00F0FF&sideLabels=94A3B8&dates=64748B" height="165" alt="Commit Streak" />
+</div>
 
 ---
 
@@ -28,7 +55,13 @@ Systems architect and software engineer specializing in high-performance computi
 
 ---
 
-### Technical Competencies
+### Technology Stack & Toolchain
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=rust,cpp,c,python,ts,react,tailwind,wasm,qt,linux,docker,git&theme=dark" alt="Technology Stack" />
+</div>
+
+<br/>
 
 - **Languages**: C++20, Rust, Python, TypeScript, JavaScript, SQL, C#
 - **Frameworks & Graphics**: Qt 6 / QML, Tauri v2, Electron, React, Three.js, WebGL, Phaser 3
