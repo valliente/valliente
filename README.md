@@ -1,50 +1,65 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=slice&color=0:060913,100:0e1726&height=140&section=header&text=VALLIENTE&fontSize=38&fontColor=ffffff&fontAlign=50&fontAlignY=40&desc=AEROSPACE%20ENGINEER%20%E2%80%A2%20PROPULSION%20%26%20FLIGHT%20DYNAMICS&descSize=13&descAlign=50&descAlignY=68&descColor=00f0ff" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:161b22&height=120&section=header&text=VALLIENTE&fontSize=40&fontColor=ffffff&fontAlign=50&fontAlignY=45&desc=AEROSPACE%20ENGINEER%20%7C%20FLIGHT%20DYNAMICS%20%26%20PROPULSION&descSize=14&descAlign=50&descAlignY=74&descColor=38bdf8" width="100%" />
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Discipline-Aerospace%20Engineering-00f0ff?style=flat-square&labelColor=060913" alt="Discipline" />
-  <img src="https://img.shields.io/badge/Focus-Propulsion%20%26%20Flight%20Dynamics-00f0ff?style=flat-square&labelColor=060913" alt="Focus" />
-  <img src="https://img.shields.io/badge/Physics-Trajectory%20%26%20Orbital%20Mechanics-00f0ff?style=flat-square&labelColor=060913" alt="Physics" />
+  <img src="https://img.shields.io/badge/Discipline-Aerospace%20Engineering-38bdf8?style=flat-square&labelColor=0d1117" alt="Discipline" />
+  <img src="https://img.shields.io/badge/Specialization-Propulsion%20%26%20Flight%20Dynamics-38bdf8?style=flat-square&labelColor=0d1117" alt="Specialization" />
+  <img src="https://img.shields.io/badge/Physics-Trajectory%20%26%20Orbital%20Mechanics-38bdf8?style=flat-square&labelColor=0d1117" alt="Physics" />
   <a href="https://github.com/valliente?tab=repositories&sort=stargazers">
-    <img src="https://img.shields.io/github/stars/valliente?style=flat-square&color=00f0ff&labelColor=060913&logo=github&logoColor=00f0ff" alt="Total Stars" />
+    <img src="https://img.shields.io/github/stars/valliente?style=flat-square&color=38bdf8&labelColor=0d1117&logo=github&logoColor=38bdf8" alt="Total Stars" />
   </a>
 </div>
 
 <br/>
 
-Aerospace engineer specializing in numerical trajectory integration, supersonic propulsion & isentropic nozzle analysis, multi-stage orbital mechanics, and high-performance engineering simulations. Developing computational tools, physics solvers, and simulation environments spanning atmospheric flight, orbital transfer dynamics, and real-time telemetry.
+Aerospace engineer specializing in numerical flight trajectory integration, supersonic propulsion, compressible gas dynamics, and orbital mechanics. Developing computational simulation engines, flight dynamics solvers, and real-time telemetry workstations across atmospheric ascent and orbital transfer regimes.
 
 ---
 
 ### Telemetry & Activity Metrics
 
 <div align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=valliente&show_icons=true&hide_rank=true&include_all_commits=true&count_private=true&bg_color=060913&title_color=00f0ff&text_color=e2e8f0&icon_color=00f0ff&border_color=1e293b" height="165" alt="Engineering Telemetry" />
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=valliente&layout=compact&bg_color=060913&title_color=00f0ff&text_color=e2e8f0&border_color=1e293b&langs_count=8" height="165" alt="Language Distribution" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=valliente&show_icons=true&hide_rank=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=38bdf8&text_color=f0f6fc&icon_color=38bdf8&border_color=30363d" height="165" alt="Engineering Telemetry" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=valliente&layout=compact&bg_color=0d1117&title_color=38bdf8&text_color=f0f6fc&border_color=30363d&langs_count=8" height="165" alt="Language Distribution" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=valliente&background=060913&border=1E293B&stroke=00F0FF&ring=00F0FF&fire=00F0FF&currStreakLabel=00F0FF&sideLabels=94A3B8&dates=64748B" height="165" alt="Contribution Streak" />
+  <img src="https://streak-stats.demolab.com/?user=valliente&background=0D1117&border=30363D&stroke=38BDF8&ring=38BDF8&fire=38BDF8&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=38BDF8&sideLabels=CBD5E1&dates=8B949E" height="165" alt="Contribution Streak" />
 </div>
 
 ---
 
-### Core Engineering Disciplines
+### Core Aerospace Disciplines & Mathematical Solvers
 
-- **Flight Dynamics & Numerical Integration**: 2-DoF and 6-DoF RK4/RKF45 numerical integrators, quaternion kinematics, 14-element state vectors $[\mathbf{r}, \mathbf{v}, \boldsymbol{\omega}, \mathbf{q}, m]$, aerodynamic drag polar modeling ($C_D(\text{Mach})$), and 1976 US Standard Atmosphere barometric layering.
-- **Propulsion & Compressible Gas Dynamics**: Multi-stage Tsiolkovsky delta-v mission staging, isentropic converging-diverging de Laval nozzle expansion, shock diamond formation, chamber thermochemistry, and altitude compensation.
-- **Orbital Mechanics & Astrodynamics**: Keplerian orbit propagation, circular restricted three-body problem (CR3BP), powered explicit guidance (PEG), and delta-v budget optimization.
-- **High-Performance Simulation Architecture**: Low-latency execution with Rust, C++20, Python, WebAssembly SIMD parallelization, Qt 6, and GPU-accelerated telemetry visualization.
+- **Atmospheric Flight Dynamics & 6-DoF Kinematics**:
+  - Numerical state integration $[\mathbf{r}, \mathbf{v}, \boldsymbol{\omega}, \mathbf{q}, m]$ via 4th-order Runge-Kutta (RK4) and adaptive Runge-Kutta-Fehlberg (RKF45).
+  - 1976 US Standard Atmosphere piecewise barometric modeling (geopotential altitude up to 86 km).
+  - Mach-dependent aerodynamic drag polar curves ($C_D(\text{Mach})$ across subsonic, transonic, and supersonic regimes).
+
+- **Rocket Propulsion & Compressible Gas Dynamics**:
+  - Multi-stage Tsiolkovsky delta-v mission staging: $\Delta v = \sum I_{\text{sp},i} \cdot g_0 \ln(m_{0,i} / m_{f,i})$.
+  - Isentropic compressible flow through de Laval converging-diverging nozzles:
+    $$\frac{A}{A^*} = \frac{1}{M}\left[\frac{2}{\gamma+1}\left(1 + \frac{\gamma-1}{2}M^2\right)\right]^{\frac{\gamma+1}{2(\gamma-1)}}$$
+  - Shock diamond formation, pressure thrust adjustment, and under/over-expansion altitude compensation.
+
+- **Orbital Mechanics & Astrodynamics**:
+  - Keplerian two-body orbit propagation, orbital elements state conversion, and orbital energy conservation.
+  - Circular Restricted Three-Body Problem (CR3BP) invariant manifolds and Lagrange point mechanics ($L_1 - L_5$).
+  - Powered Explicit Guidance (PEG) for optimal exo-atmospheric orbital injection.
+
+- **High-Performance Simulation Architecture**:
+  - Deterministic physics loops running in native C++20 and Rust with WebAssembly SIMD hardware acceleration.
+  - Multi-platform desktop & mobile distribution using Qt 6 (Quick 3D), Tauri v2, and GPU-accelerated WebGL telemetry pipelines.
 
 ---
 
-### Featured Engineering Systems
+### Featured Aerospace & Engineering Systems
 
 | Project | Description | Architecture & Stack |
 | :--- | :--- | :--- |
 | [**AeroPro: Rocketry & Propulsion Studio**](https://github.com/valliente/aeropro-rocketry-studio) | Complete aerospace rocketry and propulsion studio with 1976 US Standard Atmosphere, multi-stage Tsiolkovsky solver, 2-DoF RK4 flight integrator, and isentropic nozzle visualizer. | Tauri v2, Rust WASM, React 19, Three.js, TypeScript |
-| [**CRISPR Target Designer**](https://github.com/valliente/crispr-target-designer) | Cross-platform bioinformatics workbench for multi-nuclease gRNA design, double-strand break mapping, Hsu-Zhang mismatch scoring, and Golden Gate cloning oligo synthesis. | Python 3.11, PyQt6, Biopython |
+| [**CRISPR Target Designer**](https://github.com/valliente/crispr-target-designer) | Standalone desktop bioinformatics workbench for multi-nuclease gRNA design, double-strand break mapping, Hsu-Zhang mismatch scoring, and Golden Gate cloning oligo synthesis. | Python 3.11, PyQt6, Biopython |
 | [**LagForge**](https://github.com/valliente/lagforge) | Windows network conditioner and latency simulator featuring kernel-level WinDivert packet filtering, Gaussian jitter, packet loss injection, and zero-drop teardown. | Python, PySide6, WinDivert, Win32 API |
 | [**Microbot Evolution Lab**](https://github.com/valliente/microbot-evolution-lab) | Autonomous artificial life and genetic evolution simulation featuring rule-based vector steering, asexual reproduction with trait mutation, and O(1) spatial hash grids. | TypeScript, React 18, HTML5 Canvas, WebGL |
 | [**Ghost Runner**](https://github.com/valliente/ghost-runner) | Hybrid 2D side-scrolling fitness engine featuring real-time GPS Kalman filtering, WebRTC P2P ghost racing, and multi-track Tone.js audio synthesis. | Phaser 3, Tone.js, Tauri v2, Capacitor, TypeScript |
@@ -54,7 +69,7 @@ Aerospace engineer specializing in numerical trajectory integration, supersonic 
 
 ---
 
-### Computational Toolchain
+### Computational Toolchain & Solvers
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=cpp,c,rust,python,ts,wasm,qt,react,tailwind,linux,docker,git&theme=dark" alt="Computational Toolchain" />
@@ -62,6 +77,6 @@ Aerospace engineer specializing in numerical trajectory integration, supersonic 
 
 <br/>
 
-- **Languages & Numerics**: C++20, Rust, Python, C, TypeScript, WebAssembly (WASM), NumPy, SciPy
-- **Simulation & GUI Toolkits**: Qt 6 / QML, Tauri v2, Electron, React, Three.js, WebGL
-- **Systems & Build Infrastructure**: CMake, MSVC, Win32 API, WinDivert, Git, GitHub Actions CI/CD
+- **Numerics & Languages**: C++20, Rust, Python (NumPy / SciPy), C, TypeScript, WebAssembly (WASM SIMD)
+- **Simulation & Visual Toolkits**: Qt 6 / QML, Tauri v2, Electron, React, Three.js, WebGL2
+- **Build Infrastructure & Tooling**: CMake, MSVC, Ninja, Win32 API, WinDivert, Git, GitHub Actions CI/CD
