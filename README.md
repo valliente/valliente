@@ -1,13 +1,13 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:161b22&height=120&section=header&text=VALLIENTE&fontSize=40&fontColor=ffffff&fontAlign=50&fontAlignY=45&desc=AEROSPACE%20ENGINEER%20%7C%20FLIGHT%20DYNAMICS%20%26%20PROPULSION&descSize=14&descAlign=50&descAlignY=74&descColor=38bdf8" width="100%" />
+  <img src="./assets/banner.svg" alt="Valliente Aerospace Engineering" width="100%" />
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Discipline-Aerospace%20Engineering-38bdf8?style=flat-square&labelColor=0d1117" alt="Discipline" />
-  <img src="https://img.shields.io/badge/Specialization-Propulsion%20%26%20Flight%20Dynamics-38bdf8?style=flat-square&labelColor=0d1117" alt="Specialization" />
-  <img src="https://img.shields.io/badge/Physics-Trajectory%20%26%20Orbital%20Mechanics-38bdf8?style=flat-square&labelColor=0d1117" alt="Physics" />
+  <img src="https://img.shields.io/badge/Discipline-Aerospace%20Engineering-f59e0b?style=flat-square&labelColor=0d1117" alt="Discipline" />
+  <img src="https://img.shields.io/badge/Specialization-Propulsion%20%26%20Flight%20Dynamics-f59e0b?style=flat-square&labelColor=0d1117" alt="Specialization" />
+  <img src="https://img.shields.io/badge/Astrodynamics-Trajectory%20%26%20Orbit%20Mechanics-f59e0b?style=flat-square&labelColor=0d1117" alt="Astrodynamics" />
   <a href="https://github.com/valliente?tab=repositories&sort=stargazers">
-    <img src="https://img.shields.io/github/stars/valliente?style=flat-square&color=38bdf8&labelColor=0d1117&logo=github&logoColor=38bdf8" alt="Total Stars" />
+    <img src="https://img.shields.io/github/stars/valliente?style=flat-square&color=f59e0b&labelColor=0d1117&logo=github&logoColor=f59e0b" alt="Total Stars" />
   </a>
 </div>
 
@@ -17,15 +17,15 @@ Aerospace engineer specializing in numerical flight trajectory integration, supe
 
 ---
 
-### Telemetry & Activity Metrics
+### Telemetry & Flight Activity
 
 <div align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=valliente&show_icons=true&hide_rank=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=38bdf8&text_color=f0f6fc&icon_color=38bdf8&border_color=30363d" height="165" alt="Engineering Telemetry" />
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=valliente&layout=compact&bg_color=0d1117&title_color=38bdf8&text_color=f0f6fc&border_color=30363d&langs_count=8" height="165" alt="Language Distribution" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=valliente&show_icons=true&hide_rank=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=f59e0b&text_color=f8fafc&icon_color=f59e0b&border_color=262f3d" height="165" alt="Engineering Telemetry" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=valliente&layout=compact&bg_color=0d1117&title_color=f59e0b&text_color=f8fafc&border_color=262f3d&langs_count=8" height="165" alt="Language Distribution" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=valliente&background=0D1117&border=30363D&stroke=38BDF8&ring=38BDF8&fire=38BDF8&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=38BDF8&sideLabels=CBD5E1&dates=8B949E" height="165" alt="Contribution Streak" />
+  <img src="https://streak-stats.demolab.com/?user=valliente&background=0D1117&border=262F3D&stroke=F59E0B&ring=F59E0B&fire=F59E0B&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=F59E0B&sideLabels=CBD5E1&dates=94A3B8" height="165" alt="Contribution Streak" />
 </div>
 
 ---
@@ -69,7 +69,7 @@ Aerospace engineer specializing in numerical flight trajectory integration, supe
 
 ---
 
-### Computational Toolchain & Solvers
+### Computational Toolchain & Engineering Stack
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=cpp,c,rust,python,ts,wasm,qt,react,tailwind,linux,docker,git&theme=dark" alt="Computational Toolchain" />
@@ -77,6 +77,10 @@ Aerospace engineer specializing in numerical flight trajectory integration, supe
 
 <br/>
 
-- **Numerics & Languages**: C++20, Rust, Python (NumPy / SciPy), C, TypeScript, WebAssembly (WASM SIMD)
-- **Simulation & Visual Toolkits**: Qt 6 / QML, Tauri v2, Electron, React, Three.js, WebGL2
-- **Build Infrastructure & Tooling**: CMake, MSVC, Ninja, Win32 API, WinDivert, Git, GitHub Actions CI/CD
+| Domain | Frameworks, Engines & Languages | Key Capabilities |
+| :--- | :--- | :--- |
+| **Flight Dynamics & Numerical Integration** | `C++20` `Rust` `Python` `NumPy` `SciPy` `WASM SIMD` | 2-DoF / 6-DoF RK4/RKF45 integrators, quaternion kinematics, 1976 US Standard Atmosphere, aerodynamic drag polars ($C_D(\text{Mach})$). |
+| **Rocket Propulsion & Gas Dynamics** | `Rust` `C++20` `TypeScript` `Tauri v2` | Multi-stage Tsiolkovsky delta-v solver, isentropic converging-diverging nozzle expansion, shock diamond visualizer. |
+| **Astrodynamics & Orbit Propagation** | `Python` `C++20` `WebGL` `Three.js` | Keplerian state propagation, circular restricted three-body problem (CR3BP), Powered Explicit Guidance (PEG). |
+| **Avionics UI & Telemetry Visualization** | `Qt 6 (Quick 3D)` `QML` `Tauri v2` `React 19` `Phaser 3` | Hardware-accelerated 60 FPS flight gauges, PBR shaders, real-time GPS Kalman filtering, WebAudio DSP autocorrelation. |
+| **Systems & Platform Engineering** | `CMake` `MSVC` `Win32 API` `WinDivert` `Linux` `Git` | Native standalone zero-dependency compilation, kernel-level packet filtering, automated CI/CD multi-architecture release pipelines. |

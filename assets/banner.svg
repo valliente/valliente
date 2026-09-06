@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="100%" height="200" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14" />
+      <stop offset="50%" stop-color="#0e1422" />
+      <stop offset="100%" stop-color="#161d2f" />
+    </linearGradient>
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+    <linearGradient id="orbit-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.3" />
+    </linearGradient>
+    <pattern id="telemetry-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#94a3b8" stroke-width="0.5" stroke-opacity="0.07" />
+    </pattern>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="900" height="200" rx="8" fill="url(#bg-grad)" />
+  <rect width="900" height="200" rx="8" fill="url(#telemetry-grid)" />
+  <rect x="1" y="1" width="898" height="198" rx="7" fill="none" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Corner Brackets -->
+  <path d="M 12 28 L 12 12 L 28 12" fill="none" stroke="#f59e0b" stroke-width="2" />
+  <path d="M 888 28 L 888 12 L 872 12" fill="none" stroke="#f59e0b" stroke-width="2" />
+  <path d="M 12 172 L 12 188 L 28 188" fill="none" stroke="#f59e0b" stroke-width="2" />
+  <path d="M 888 172 L 888 188 L 872 188" fill="none" stroke="#f59e0b" stroke-width="2" />
+
+  <!-- Right Side: Orbital Astrodynamics Schematic -->
+  <g transform="translate(710, 100)">
+    <!-- Planetary Body Core -->
+    <circle cx="0" cy="0" r="26" fill="#0d1424" stroke="#26354d" stroke-width="1.5" />
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#38bdf8" stroke-width="0.75" stroke-dasharray="2 3" opacity="0.4" />
+    <circle cx="0" cy="0" r="5" fill="#f59e0b" opacity="0.9" />
+    
+    <!-- Orbital Trajectory Ellipses -->
+    <ellipse cx="10" cy="0" rx="75" ry="42" fill="none" stroke="url(#orbit-grad)" stroke-width="1.5" transform="rotate(-18)" />
+    <ellipse cx="-5" cy="0" rx="110" ry="58" fill="none" stroke="#475569" stroke-width="1" stroke-dasharray="4 6" opacity="0.5" transform="rotate(12)" />
+    
+    <!-- Periapsis / Apoapsis Points -->
+    <circle cx="-60" cy="20" r="3" fill="#38bdf8" />
+    <text x="-65" y="32" fill="#64748b" font-family="'SF Mono', Consolas, monospace" font-size="8" text-anchor="end">PERIAPSIS (Rp)</text>
+    
+    <circle cx="80" cy="-24" r="3.5" fill="#f59e0b" />
+    <text x="85" y="-30" fill="#fbbf24" font-family="'SF Mono', Consolas, monospace" font-size="8" font-weight="bold">APOAPSIS (Ra)</text>
+    
+    <!-- Flight Vector -->
+    <line x1="80" y1="-24" x2="105" y2="-40" stroke="#f59e0b" stroke-width="1.5" />
+    <polygon points="105,-40 98,-34 100,-42" fill="#f59e0b" />
+  </g>
+
+  <!-- Left Side: Technical Data &amp; Typography -->
+  <g transform="translate(45, 48)">
+    <circle cx="0" cy="-4" r="3" fill="#10b981" />
+    <text x="10" y="0" fill="#f59e0b" font-family="'SF Mono', Consolas, 'Courier New', monospace" font-size="10" font-weight="bold" letter-spacing="3">AEROSPACE SYSTEMS ENGINEERING LAB</text>
+    <text x="350" y="0" fill="#475569" font-family="'SF Mono', Consolas, monospace" font-size="10">// SYS.LOC: 28.5721° N, 80.6480° W</text>
+  </g>
+
+  <!-- Name Title -->
+  <text x="45" y="98" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, sans-serif" font-size="44" font-weight="800" letter-spacing="1.5">VALLIENTE</text>
+
+  <!-- Primary Subtitle -->
+  <text x="47" y="126" fill="#cbd5e1" font-family="'SF Mono', Consolas, 'Courier New', monospace" font-size="12" font-weight="600" letter-spacing="2">FLIGHT DYNAMICS  •  PROPULSION SYSTEMS  •  ORBITAL MECHANICS</text>
+
+  <!-- Technical Spec Footer Pill -->
+  <g transform="translate(45, 146)">
+    <rect x="0" y="0" width="555" height="24" rx="4" fill="#0d1424" stroke="#1e293b" stroke-width="1" />
+    <text x="12" y="16" fill="#94a3b8" font-family="'SF Mono', Consolas, monospace" font-size="9.5" letter-spacing="0.5">SPEC: 6-DoF RK4/RKF45 • 1976 US STD ATMOSPHERE • DE LAVAL NOZZLE GAS DYNAMICS</text>
+  </g>
+</svg>
